@@ -27,15 +27,22 @@ h1, h2, h3, h3, h4, h5, h6 {
     font-size: 2rem;
 }
 
-.default-background {
-    min-height: 100vh;
+.default-background, .about-background {
     display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(rgba(255, 158, 0, 0.5), rgba(255, 158, 0, 0.4)) !important;
     background-image: center;
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat !important;
+}
+
+.default-background {
+    min-height: 100vh;
+}
+
+.about-background {
+    min-height: 60vh;
 }
 
 .btn-yellow {
