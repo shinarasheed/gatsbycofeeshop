@@ -11,7 +11,14 @@ const Product = ({ product }) => {
         <div className="card-body text-center">
           <h6>{title}</h6>
           <h6>${price}</h6>
-          <button className="btn btn-yellow mt-3 text-capitalize">
+          <button
+            className="btn btn-yellow mt-3 text-capitalize snipcart-add-item"
+            data-item-id={product.id}
+            data-item-name={title}
+            data-item-price={price}
+            data-item-image={product.image.fluid.src}
+            data-item-url="https://gatsbycoffeshopproject.netlify.app/"
+          >
             add to cart
           </button>
         </div>

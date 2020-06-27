@@ -44,7 +44,7 @@ export default class Menu extends Component {
             <Title title="best of our menu" />
             {/* categories */}
             <div className="row mb-5">
-              <div className="col-10 auto text-center">
+              <div className="col-10 mx-auto text-center">
                 {this.state.categories.map((category, index) => {
                   return (
                     <button
