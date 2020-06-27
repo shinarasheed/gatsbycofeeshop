@@ -52,7 +52,7 @@ export default class Menu extends Component {
             <Title title="best of our menu" />
             <div className="row">
               <div className="col-10 col-sm-6 mx-auto text-center">
-                <h1>there are no items to display</h1>
+                <h1>we dont have any item to display</h1>
               </div>
             </div>
           </div>
