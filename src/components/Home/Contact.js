@@ -15,7 +15,7 @@ const Contact = () => {
                 className="form-control"
                 name="name"
                 id="name"
-                placeholder="shina"
+                placeholder="your name"
               />
             </div>
 
@@ -26,7 +26,7 @@ const Contact = () => {
                 className="form-control"
                 name="email"
                 id="email"
-                placeholder="shina@gmail.com"
+                placeholder="your email"
               />
             </div>
             <div className="form-group">
@@ -36,7 +36,7 @@ const Contact = () => {
                 id="description"
                 className="form-control"
                 rows="5"
-                placeholder="your description goes here"
+                placeholder="message"
               ></textarea>
             </div>
             <button
