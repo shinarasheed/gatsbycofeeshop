@@ -19,7 +19,7 @@ const Product = ({ product }) => {
             data-item-image={mainImage.src}
             data-item-url="https://gatsbycoffeshopproject.netlify.app/"
           >
-            add to cart
+            Add to cart
           </button>
         </div>
       </div>
